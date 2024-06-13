@@ -6,3 +6,4 @@
 #include "4_calculating_electric_power.typ"
 #include "5_resistors.typ"
 #include "6_nonlinear_conduction.typ"
+#include "7_circuit_wiring.typ"
