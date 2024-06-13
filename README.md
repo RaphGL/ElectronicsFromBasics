@@ -1,2 +1,3 @@
-# ElectronicsFromBasics
-A new version based on the learningelectronics.net "ebook"
+# Electronics From Basics
+
+This is a new version of the [learningelectronics.net](http://www.learningelectronics.net) in book form. Attempting to improve legibility and graphics.
