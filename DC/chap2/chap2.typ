@@ -1,4 +1,4 @@
-= Ohm's Law
+== Ohm's Law
 
 #include "1_voltage_current_resistance_relation.typ"
 #include "2_analogy_for_ohms_law.typ"

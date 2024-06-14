@@ -1,6 +1,6 @@
 #import "../../core/core.typ"
 
-== How voltage, current and resistance relate
+=== How voltage, current and resistance relate
 
 An electric circuit is formed when a conductive path is created to allow free electrons to continuously move. This continuous movement of free electrons through the conductors of a circuit is called a current, and it is often referred to in terms of "flow," just like the flow of a liquid through a hollow pipe.
 

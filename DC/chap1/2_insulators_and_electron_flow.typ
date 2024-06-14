@@ -1,6 +1,6 @@
 #import "../../core/core.typ"
 
-== Conductors, insulators and electron flow
+=== Conductors, insulators and electron flow
 
 The electrons of different types of atoms have different degrees of freedom to move around. With some types of materials, such as metals, the outermost electrons in the atoms are so loosely bound that they chaotically move in the space between the atoms of that material by nothing more than the influence of room-temperature heat energy. Because these virtually unbound electrons are free to leave their respective atoms and float around in the space between adjacent atoms, they are often called _free electrons_. 
 

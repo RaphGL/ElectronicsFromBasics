@@ -1,6 +1,6 @@
 #import "../../core/core.typ"
 
-== Nonlinear conduction
+=== Nonlinear conduction
 
 #quote(
   attribution: [Bernhard Haisch, Astrophysicist],

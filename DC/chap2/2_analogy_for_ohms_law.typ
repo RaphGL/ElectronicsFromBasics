@@ -1,4 +1,4 @@
-== An analogy for Ohm's Law
+=== An analogy for Ohm's Law
 
 Ohm's Law also makes intuitive sense if you apply it to the water-and-pipe analogy. If we have a water pump that exerts pressure (voltage) to push water around a "circuit" (current) through a restriction (resistance), we can model how the three variables interrelate. If the resistance to water flow stays the same and the pump pressure increases, the flow rate must also increase. 
 

@@ -1,6 +1,6 @@
 #import "../../core/core.typ"
 
-== Power in electric circuits
+=== Power in electric circuits
 
  In addition to voltage and current, there is another measure of free electron activity in a circuit: power. First, we need to understand just what power is before we analyze it in any circuits.
 

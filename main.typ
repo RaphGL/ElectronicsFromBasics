@@ -4,6 +4,8 @@
   keywords: ("Electronics", "Electricity"),
 )
 
+#set page(numbering: "1")
+
 #set par(justify: true)
 
 #set text(
@@ -17,11 +19,19 @@
  numbering: "1.1" 
 )
 
-#show heading.where(level: 1): contents => [
+#show heading.where(level: 1): head => [
+  #set text(size: 2.5em)
   #align(center)[
-    #contents
+    #block(head.body)
   ]
-] 
+]
+
+#show heading.where(level: 2): head => [
+  #set align(center)
+  #pad(y: 2em)[
+    #head
+  ]
+]
 
 #show image: img => [
   #align(center)[

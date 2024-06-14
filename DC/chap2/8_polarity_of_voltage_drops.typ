@@ -1,6 +1,6 @@
 #import "../../core/core.typ"
 
-== Polarity of voltage drops
+=== Polarity of voltage drops
 
 We can trace the direction that electrons will flow in the same circuit by starting at the negative (-) terminal and following through to the positive (+) terminal of the battery, the only source of voltage in the circuit.
 From this we can see that the electrons are moving counter-clockwise, from point 6 to 5 to 4 to 3 to 2 to 1 and back to 6 again.

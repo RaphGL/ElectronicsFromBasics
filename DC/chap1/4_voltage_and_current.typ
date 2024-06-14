@@ -1,6 +1,6 @@
 #import "../../core/core.typ"
 
-== Voltage and current
+=== Voltage and current
 
  As was previously mentioned, we need more than just a continuous path (circuit) before a continuous flow of electrons will occur: we also need some means to push these electrons around the circuit. Just like marbles in a tube or water in a pipe, it takes some kind of influencing force to initiate flow. With electrons, this force is the same force at work in static electricity: the force produced by an imbalance of electric charge.
 

@@ -1,3 +1,15 @@
+#let volume_title(title: "", description: "") = [
+  #layout(size => [
+    #block(width: size.width, height: size.height)[
+      #align(center + horizon)[
+        = #title
+
+        #description
+      ]
+    ]
+  ])
+]
+
 // todo rename everywhere to text_figure
 #let voltage_listing(body, description: "") = [
   #align(center)[

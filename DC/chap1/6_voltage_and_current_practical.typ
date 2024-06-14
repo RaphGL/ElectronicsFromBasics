@@ -1,4 +1,4 @@
-== Voltage and current in a practical circuit
+=== Voltage and current in a practical circuit
 
 Because it takes energy to force electrons to flow against the opposition of a resistance, there will be voltage manifested (or "dropped") between any points in a circuit with resistance between them. It is important to note that although the amount of current (the quantity of electrons moving past a given point every second) is uniform in a simple circuit, the amount of voltage (potential energy per unit charge) between different sets of points in a single circuit may vary considerably: 
 

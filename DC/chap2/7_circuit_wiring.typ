@@ -1,6 +1,6 @@
 #import "../../core/core.typ"
 
-== Circuit wiring
+=== Circuit wiring
 
 So far, we've been analyzing single-battery, single-resistor circuits with no regard for the connecting wires between the components, so long as a complete circuit is formed.
 Does the wire length or circuit "shape" matter to our calculations? Let's look at a couple of circuit configurations and find out: 

@@ -1,6 +1,6 @@
 #import "../../core/core.typ"
 
-== Static electricity
+=== Static electricity
 
 It was discovered centuries ago that certain types of materials would mysteriously attract one another after being rubbed together. For example: after rubbing a piece of silk against a piece of glass, the silk and glass would tend to stick together. Indeed, there was an attractive force that could be demonstrated even when the two materials were separated: 
 
