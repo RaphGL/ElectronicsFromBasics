@@ -1,3 +1,5 @@
+#import "../../core/core.typ"
+
 == Static electricity
 
 It was discovered centuries ago that certain types of materials would mysteriously attract one another after being rubbed together. For example: after rubbing a piece of silk against a piece of glass, the silk and glass would tend to stick together. Indeed, there was an attractive force that could be demonstrated even when the two materials were separated: 
@@ -54,12 +56,18 @@ The result of an imbalance of this "fluid" (electrons) between objects is called
 
 Michael Faraday proved (1832) that static electricity was the same as that produced by a battery or a generator. Static electricity is, for the most part, a nusiance. Black powder and smokeless powder have graphite added to prevent ignition due to static electricity. It causes damage to sensitive semiconductor circuitry. While is is possible to produce motors powered by high voltage and low current characteristic of static electricity, this is not economic. The few practical applications of static electricity include xerographic printing, the electrostatic air filter, and the high voltage Van de Graaff generator. 
 
-=== Review
+#core.review[
+  - All materials are made up of tiny "building blocks" known as atoms.
 
-- All materials are made up of tiny "building blocks" known as atoms.
-- All naturally occurring atoms contain particles called electrons, protons, and neutrons, with the exception of the protium isotope ($#sub[1]H^1$) of hydrogen.
-- Electrons have a negative (-) electric charge.
-- Protons have a positive (+) electric charge.
-- Neutrons have no electric charge.
-- Electrons can be dislodged from atoms much easier than protons or neutrons.
-- The number of protons in an atom's nucleus determines its identity as a unique element.
+ - All naturally occurring atoms contain particles called electrons, protons, and neutrons, with the exception of the protium isotope ($#sub[1]H^1$) of hydrogen.
+
+ - Electrons have a negative (-) electric charge.
+
+ - Protons have a positive (+) electric charge.
+
+ - Neutrons have no electric charge.
+
+ - Electrons can be dislodged from atoms much easier than protons or neutrons.
+
+ - The number of protons in an atom's nucleus determines its identity as a unique element.
+]

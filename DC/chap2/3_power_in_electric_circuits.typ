@@ -1,3 +1,5 @@
+#import "../../core/core.typ"
+
 == Power in electric circuits
 
  In addition to voltage and current, there is another measure of free electron activity in a circuit: power. First, we need to understand just what power is before we analyze it in any circuits.
@@ -47,9 +49,14 @@ $ 1 "Horsepower" = 745.7 "Watts" $
 
 So, our 100 horsepower diesel and motorcycle engines could also be rated as "74570 watt" engines, or more properly, as "74.57 kilowatt" engines. In European engineering specifications, this rating would be the norm rather than the exception. 
 
-=== Review
-- Power is the measure of how much work can be done in a given amount of time.
-- Mechanical power is commonly measured (in America) in "horsepower."
-- Electrical power is almost always measured in "watts," and it can be calculated by the formula P = IE.
-- Electrical power is a product of both voltage and current, not either one separately.
-- Horsepower and watts are merely two different units for describing the same kind of physical measurement, with 1 horsepower equaling 745.7 watts.
+#core.review[
+  - Power is the measure of how much work can be done in a given amount of time.
+
+  - Mechanical power is commonly measured (in America) in "horsepower."
+
+  - Electrical power is almost always measured in "watts," and it can be calculated by the formula P = IE.
+
+  - Electrical power is a product of both voltage and current, not either one separately.
+
+  - Horsepower and watts are merely two different units for describing the same kind of physical measurement, with 1 horsepower equaling 745.7 watts. 
+]

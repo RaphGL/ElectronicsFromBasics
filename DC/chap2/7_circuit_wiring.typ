@@ -1,3 +1,5 @@
+#import "../../core/core.typ"
+
 == Circuit wiring
 
 So far, we've been analyzing single-battery, single-resistor circuits with no regard for the connecting wires between the components, so long as a complete circuit is formed.
@@ -28,19 +30,7 @@ Points 1, 2, and 3 are all common to each other, because they're directly connec
 
 The voltage between points 1 and 6 is 10 volts, coming straight from the battery. However, since points 5 and 4 are common to 6, and points 2 and 3 common to 1, that same 10 volts also exists between these other pairs of points: 
 
-#let voltage_listing(contents, description: "") = [
-  #align(center)[
-    #box[
-      #align(left)[#contents]
-    ]
-
-    #if description.len() != "" [
-      #description
-    ]
-  ] 
-]
-
-#voltage_listing[
+#core.voltage_listing[
     Between points 1 and 4 = 10 volts                             
 
     Between points 2 and 4 = 10 volts                               
@@ -63,7 +53,7 @@ The voltage between points 1 and 6 is 10 volts, coming straight from the battery
 Since electrically common points are connected together by (zero resistance) wire, there is no significant voltage drop between them regardless of the amount of current conducted from one to the next through that connecting wire.
 Thus, if we were to read voltages between common points, we should show (practically) zero: 
 
-#voltage_listing(
+#core.voltage_listing(
   [
     Between points 1 and 2 = 0 volts  
 
@@ -75,7 +65,7 @@ Thus, if we were to read voltages between common points, we should show (practic
   description: "Points 1, 2 and 3 are electrically common"
 )
 
-#voltage_listing(
+#core.voltage_listing(
   [
     Between points 4 and 5 = 0 volts     
 
@@ -108,11 +98,17 @@ That is, the rule that electrically common points are guaranteed to have zero vo
 That small, virtually unavoidable trace of resistance found in any piece of connecting wire is bound to create a small voltage across the length of it as current is conducted through.
 So long as you understand that these rules are based upon _ideal_ conditions, you won't be perplexed when you come across some condition appearing to be an exception to the rule.
 
-=== Review
 
-- Connecting wires in a circuit are assumed to have zero resistance unless otherwise stated.
-- Wires in a circuit can be shortened or lengthened without impacting the circuit's function -- all that matters is that the components are attached to one another in the same sequence.
-- Points directly connected together in a circuit by zero resistance (wire) are considered to be electrically common.
-- Electrically common points, with zero resistance between them, will have zero voltage dropped between them, regardless of the magnitude of current (ideally).
-- The voltage or resistance readings referenced between sets of electrically common points will be the same.
-- These rules apply to ideal conditions, where connecting wires are assumed to possess absolutely zero resistance. In real life this will probably not be the case, but wire resistances should be low enough so that the general principles stated here still hold.
+#core.review[
+  - Connecting wires in a circuit are assumed to have zero resistance unless otherwise stated.
+
+  - Wires in a circuit can be shortened or lengthened without impacting the circuit's function -- all that matters is that the components are attached to one another in the same sequence.
+
+  - Points directly connected together in a circuit by zero resistance (wire) are considered to be electrically common.
+
+  - Electrically common points, with zero resistance between them, will have zero voltage dropped between them, regardless of the magnitude of current (ideally).
+
+  - The voltage or resistance readings referenced between sets of electrically common points will be the same.
+
+  - These rules apply to ideal conditions, where connecting wires are assumed to possess absolutely zero resistance. In real life this will probably not be the case, but wire resistances should be low enough so that the general principles stated here still hold.
+]

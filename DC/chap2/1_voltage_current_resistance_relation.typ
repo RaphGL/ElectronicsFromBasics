@@ -1,3 +1,5 @@
+#import "../../core/core.typ"
+
 == How voltage, current and resistance relate
 
 An electric circuit is formed when a conductive path is created to allow free electrons to continuously move. This continuous movement of free electrons through the conductors of a circuit is called a current, and it is often referred to in terms of "flow," just like the flow of a liquid through a hollow pipe.
@@ -85,8 +87,12 @@ Lastly, if you know I and R, and wish to determine E, eliminate E and see what's
 
 Eventually, you'll have to be familiar with algebra to seriously study electricity and electronics, but this tip can make your first calculations a little easier to remember. If you are comfortable with algebra, all you need to do is commit E=IR to memory and derive the other two formulae from that when you need them! 
 
-=== Review
-- Voltage measured in volts, symbolized by the letters "E" or "V".
-- Current measured in amps, symbolized by the letter "I".
-- Resistance measured in ohms, symbolized by the letter "R".
-- Ohm's Law: $E = I R$ ; $I = E/R$ ; $R = E/I$
+#core.review[
+  - Voltage measured in volts, symbolized by the letters "E" or "V".
+
+  - Current measured in amps, symbolized by the letter "I".
+
+  - Resistance measured in ohms, symbolized by the letter "R".
+
+  - Ohm's Law: $E = I R$ ; $I = E/R$ ; $R = E/I$ 
+]

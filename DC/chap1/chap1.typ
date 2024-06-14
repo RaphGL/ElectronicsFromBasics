@@ -1,4 +1,4 @@
-= Chapter 1 - Basic concepts of electricity
+= Basic concepts of electricity
 
 #include "1_static_electricity.typ"
 #include "2_insulators_and_electron_flow.typ"

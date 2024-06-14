@@ -1,4 +1,6 @@
- == Calculating electric power
+#import "../../core/core.typ"
+
+  == Calculating electric power
 
  We've seen the formula for determining the power in an electric circuit: by multiplying the voltage in "volts" by the current in "amps" we arrive at an answer in "watts." Let's apply this to a circuit example: 
 
@@ -43,7 +45,8 @@ $ P = I E $
 $ P = E^2 / R $
 $ P = I^2 R $
 
-=== Review
+#core.review[
+ - Power measured in watts, symbolized by the letter "W".
 
-- Power measured in watts, symbolized by the letter "W".
-- Joule's Law: $P = I^2 R$ ; $P = I E$ ; $P = E^2/R$
+ - Joule's Law: $P = I^2 R$ ; $P = I E$ ; $P = E^2/R$
+]

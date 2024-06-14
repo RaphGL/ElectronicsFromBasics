@@ -1,3 +1,5 @@
+#import "../../core/core.typ"
+
 == Nonlinear conduction
 
 #quote(
@@ -55,10 +57,14 @@ Ohm's Law is not very useful for analyzing the behavior of components like these
 
 For the benefit of the student, however, we will assume that resistances specified in example circuits are stable over a wide range of conditions unless otherwise specified. I just wanted to expose you to a little bit of the complexity of the real world, lest I give you the false impression that the whole of electrical phenomena could be summarized in a few simple equations. 
 
-=== Review
+#core.review[
+  - The resistance of most conductive materials is stable over a wide range of conditions, but this is not true of all materials.
 
-- The resistance of most conductive materials is stable over a wide range of conditions, but this is not true of all materials.
-- Any function that can be plotted on a graph as a straight line is called a linear function. For circuits with stable resistances, the plot of current over voltage is linear (I=E/R).
-- In circuits where resistance varies with changes in either voltage or current, the plot of current over voltage will be nonlinear (not a straight line).
-- A varistor is a component that changes resistance with the amount of voltage impressed across it. With little voltage across it, its resistance is high. Then, at a certain "breakdown" or "firing" voltage, its resistance decreases dramatically.
-- Negative resistance is where the current through a component actually decreases as the applied voltage across it is increased. Some electron tubes and semiconductor diodes (most notably, the tetrode tube and the Esaki, or tunnel diode, respectively) exhibit negative resistance over a certain range of voltages.
+  - Any function that can be plotted on a graph as a straight line is called a linear function. For circuits with stable resistances, the plot of current over voltage is linear (I=E/R).
+
+  - In circuits where resistance varies with changes in either voltage or current, the plot of current over voltage will be nonlinear (not a straight line).
+
+  - A varistor is a component that changes resistance with the amount of voltage impressed across it. With little voltage across it, its resistance is high. Then, at a certain "breakdown" or "firing" voltage, its resistance decreases dramatically.
+
+  - Negative resistance is where the current through a component actually decreases as the applied voltage across it is increased. Some electron tubes and semiconductor diodes (most notably, the tetrode tube and the Esaki, or tunnel diode, respectively) exhibit negative resistance over a certain range of voltages.core.review[
+]

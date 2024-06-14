@@ -1,3 +1,5 @@
+#import "../../core/core.typ"
+
 == Voltage and current
 
  As was previously mentioned, we need more than just a continuous path (circuit) before a continuous flow of electrons will occur: we also need some means to push these electrons around the circuit. Just like marbles in a tube or water in a pipe, it takes some kind of influencing force to initiate flow. With electrons, this force is the same force at work in static electricity: the force produced by an imbalance of electric charge.
@@ -80,12 +82,18 @@ Now let's see what happens if we connect points 2 and 3 back together again, but
 
 With the break between 3 and 4, the polarity of the voltage drop between those two points is "+" for 4 and "-" for 3. Take special note of the fact that point 3's "sign" is opposite of that in the first example, where the break was between points 2 and 3 (where point 3 was labeled "+"). It is impossible for us to say that point 3 in this circuit will always be either "+" or "-", because polarity, like voltage itself, is not specific to a single point, but is always relative between two points! 
 
-=== Review
+#core.review[
+ - Electrons can be motivated to flow through a conductor by the same force manifested in static electricity.
 
-- Electrons can be motivated to flow through a conductor by the same force manifested in static electricity.
-- Voltage is the measure of specific potential energy (potential energy per unit charge) between two locations. In layman's terms, it is the measure of "push" available to motivate electrons.
-- Voltage, as an expression of potential energy, is always relative between two locations, or points. Sometimes it is called a voltage "drop."
-- When a voltage source is connected to a circuit, the voltage will cause a uniform flow of electrons through that circuit called a current.
-- In a single (one loop) circuit, the amount of current at any point is the same as the amount of current at any other point.
-- If a circuit containing a voltage source is broken, the full voltage of that source will appear across the points of the break.
-- The +/- orientation a voltage drop is called the polarity. It is also relative between two points.
+ - Voltage is the measure of specific potential energy (potential energy per unit charge) between two locations. In layman's terms, it is the measure of "push" available to motivate electrons.
+
+ - Voltage, as an expression of potential energy, is always relative between two locations, or points. Sometimes it is called a voltage "drop."
+
+ - When a voltage source is connected to a circuit, the voltage will cause a uniform flow of electrons through that circuit called a current.
+
+ - In a single (one loop) circuit, the amount of current at any point is the same as the amount of current at any other point.
+
+ - If a circuit containing a voltage source is broken, the full voltage of that source will appear across the points of the break.
+
+ - The +/- orientation a voltage drop is called the polarity. It is also relative between two points.core.review[  
+]

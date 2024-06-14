@@ -1,3 +1,5 @@
+#import "../../core/core.typ"
+
 == Resistance
 
 The circuit in the previous section is not a very practical one. In fact, it can be quite dangerous to build (directly connecting the poles of a voltage source together with a single piece of wire). The reason it is dangerous is because the magnitude of electric current may be very large in such a short circuit, and the release of energy very dramatic (usually in the form of heat). Usually, electric circuits are constructed in such a way as to make practical use of that released energy, in as safe a manner as possible.
@@ -42,11 +44,16 @@ Knife switches are great for illustrating the basic principle of how a switch wo
 
 In keeping with the "open" and "closed" terminology of circuits, a switch that is making contact from one connection terminal to the other (example: a knife switch with the blade fully touching the stationary contact point) provides continuity for electrons to flow through, and is called a _closed_ switch. Conversely, a switch that is breaking continuity (example: a knife switch with the blade not touching the stationary contact point) won't allow electrons to pass through and is called an open switch. This terminology is often confusing to the new student of electronics, because the words "open" and "closed" are commonly understood in the context of a door, where "open" is equated with free passage and "closed" with blockage. With electrical switches, these terms have opposite meaning: "open" means no flow while "closed" means free passage of electrons. 
 
-=== Review
+#core.review[
+  - Resistance is the measure of opposition to electric current.
 
-- Resistance is the measure of opposition to electric current.
-- A short circuit is an electric circuit offering little or no resistance to the flow of electrons. Short circuits are dangerous with high voltage power sources because the high currents encountered can cause large amounts of heat energy to be released.
-- An open circuit is one where the continuity has been broken by an interruption in the path for electrons to flow.
-- A closed circuit is one that is complete, with good continuity throughout.
-- A device designed to open or close a circuit under controlled conditions is called a switch.
-- The terms "open" and "closed" refer to switches as well as entire circuits. An open switch is one without continuity: electrons cannot flow through it. A closed switch is one that provides a direct (low resistance) path for electrons to flow through.
+  - A short circuit is an electric circuit offering little or no resistance to the flow of electrons. Short circuits are dangerous with high voltage power sources because the high currents encountered can cause large amounts of heat energy to be released.
+
+  - An open circuit is one where the continuity has been broken by an interruption in the path for electrons to flow.
+
+  - A closed circuit is one that is complete, with good continuity throughout.
+
+  - A device designed to open or close a circuit under controlled conditions is called a switch.
+
+  - The terms "open" and "closed" refer to switches as well as entire circuits. An open switch is one without continuity: electrons cannot flow through it. A closed switch is one that provides a direct (low resistance) path for electrons to flow through.
+]

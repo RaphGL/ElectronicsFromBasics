@@ -1,3 +1,5 @@
+#import "../../core/core.typ"
+
 == Electric circuits
 
  You might have been wondering how electrons can continuously flow in a uniform direction through wires without the benefit of these hypothetical electron Sources and Destinations. In order for the Source-and-Destination scheme to work, both would have to have an infinite capacity for electrons in order to sustain a continuous flow! Using the marble-and-tube analogy, the marble source and marble destination buckets would have to be infinitely large to contain enough marble capacity for a "flow" of marbles to be sustained.
@@ -16,8 +18,10 @@ An important principle to realize here is that _it doesn't matter where the brea
 
 #image("static/broken-circuit-2.png")
 
-=== Review
+#core.review[
+ - A circuit is an unbroken loop of conductive material that allows electrons to flow through continuously without beginning or end.
 
-- A circuit is an unbroken loop of conductive material that allows electrons to flow through continuously without beginning or end.
-- If a circuit is "broken," that means its conductive elements no longer form a complete path, and continuous electron flow cannot occur in it.
-- The location of a break in a circuit is irrelevant to its inability to sustain continuous electron flow. Any break, anywhere in a circuit prevents electron flow throughout the circuit.
+ - If a circuit is "broken," that means its conductive elements no longer form a complete path, and continuous electron flow cannot occur in it.
+
+ - The location of a break in a circuit is irrelevant to its inability to sustain continuous electron flow. Any break, anywhere in a circuit prevents electron flow throughout the circuit.
+]

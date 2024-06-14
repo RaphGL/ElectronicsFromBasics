@@ -1,5 +1,5 @@
 #set document(
-  title: [Learning Electronics (temporary title)],
+  title: [Electronics From Basics],
   author: "Rafael Lopes",
   keywords: ("Electronics", "Electricity"),
 )
@@ -16,6 +16,12 @@
 #set heading(
  numbering: "1.1" 
 )
+
+#show heading.where(level: 1): contents => [
+  #align(center)[
+    #contents
+  ]
+] 
 
 #show image: img => [
   #align(center)[

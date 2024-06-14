@@ -1,3 +1,5 @@
+#import "../../core/core.typ"
+
 == Conductors, insulators and electron flow
 
 The electrons of different types of atoms have different degrees of freedom to move around. With some types of materials, such as metals, the outermost electrons in the atoms are so loosely bound that they chaotically move in the space between the atoms of that material by nothing more than the influence of room-temperature heat energy. Because these virtually unbound electrons are free to leave their respective atoms and float around in the space between adjacent atoms, they are often called _free electrons_. 
@@ -75,10 +77,17 @@ Now, we have continuity from the Source, to the newly-made connection, down, to 
 
 It is interesting to note that no "wear" occurs within wires due to this electric current, unlike water-carrying pipes which are eventually corroded and worn by prolonged flows. Electrons do encounter some degree of friction as they move, however, and this friction can generate heat in a conductor. This is a topic we'll explore in much greater detail later. 
 
-=== Review
-- In conductive materials, the outer electrons in each atom can easily come or go, and are called free electrons.
-- In insulating materials, the outer electrons are not so free to move.
-- All metals are electrically conductive.
-- Dynamic electricity, or electric current, is the uniform motion of electrons through a conductor.
-- Static electricity is an unmoving (if on an insulator), accumulated charge formed by either an excess or deficiency of electrons in an object. It is typically formed by charge separation by contact and separation of dissimilar materials.
-- For electrons to flow continuously (indefinitely) through a conductor, there must be a complete, unbroken path for them to move both into and out of that conductor.
+#core.review[
+  - In conductive materials, the outer electrons in each atom can easily come or go, and are called free electrons.
+
+  - In insulating materials, the outer electrons are not so free to move.
+
+  - All metals are electrically conductive.
+
+  - Dynamic electricity, or electric current, is the uniform motion of electrons through a conductor.
+
+  - Static electricity is an unmoving (if on an insulator), accumulated charge formed by either an excess or deficiency of electrons in an object. It is typically formed by charge separation by contact and separation of dissimilar materials.
+
+  - For electrons to flow continuously (indefinitely) through a conductor, there must be a complete, unbroken path for them to move both into and out of that conductor.
+]
+  
