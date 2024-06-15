@@ -8,3 +8,4 @@
 #include "6_nonlinear_conduction.typ"
 #include "7_circuit_wiring.typ"
 #include "8_polarity_of_voltage_drops.typ"
+#include "9_computer_simulation_of_electric_circuits.typ"

@@ -45,6 +45,14 @@
   ]
 ]
 
+#show raw: set text(font: "JetBrains Mono")
+
+#show raw.where(block: true): code => [
+  #pad(x: 2em, 1em)[
+      #code
+  ]
+]
+
 #outline(indent: auto,)
 #pagebreak()
 

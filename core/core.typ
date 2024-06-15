@@ -26,16 +26,15 @@
 // a box that contains a list of points made in the lesson
 // the box already contains a review title
 #let review(body) = [
-  #pad(x: 2em, y: 2em)[
-    #rect(radius: 1em)[
-      #pad(rest: 1em)[
-        #align(center)[
-          #heading(level: 2, numbering: none, outlined: false)[Review]
-        ]
+  #pad(rest: 2em)[
+    #set align(center)
 
-        #linebreak()
+    #rect(radius: 1em, stroke: 1.2pt)[
+      #pad(rest: 1em)[
+        #text(size: 1.2em)[*Review*]
+
         #set list(marker: [--])
-        #body
+        #align(left)[#body]
       ]
     ]
   ]
