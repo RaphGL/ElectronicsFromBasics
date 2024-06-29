@@ -64,12 +64,15 @@ supervision.
     victim can be pried or pulled from the circuit by an insulated object
     such as a dry wood board, piece of nonmetallic conduit, or rubber
     electrical cord.
+
   - Victims need immediate medical response: check for breathing and
     pulse, then apply CPR as necessary to maintain oxygenation.
+
   - If a victim is still conscious after having been shocked, they need to
     be closely monitored and cared for until trained emergency response
     personnel arrive. There is danger of physiological shock, so keep the
     victim warm and comfortable.
+
   - Shock victims may suffer heart trouble up to several hours after being
     shocked. The danger of electric shock does not end after the immediate
     medical attention.

@@ -97,7 +97,7 @@ def main():
     try:
         chapter_path = sys.argv[2]
     except IndexError:
-        chapter_path = "out.typst"
+        chapter_path = "out.typ"
 
     if shutil.which("pandoc") is None:
         print_err("pandoc is not installed and it's a required dependency.")

@@ -176,21 +176,26 @@ opinion.\"
   - #emph[Zero Energy State]: When a circuit, device, or system has been
     secured so that no potential energy exists to harm someone working on
     it.
+
   - Disconnect switch devices must be present in a properly designed
     electrical system to allow for convenient readiness of a Zero Energy
     State.
+
   - Temporary grounding or shorting wires may be connected to a load being
     serviced for extra protection to personnel working on that load.
+
   - #emph[Lock-out/Tag-out] works like this: when working on a system in a
     Zero Energy State, the worker places a personal padlock or combination
     lock on every energy disconnect device relevant to his or her task on
     that system. Also, a tag is hung on every one of those locks
     describing the nature and duration of the work to be done, and who is
     doing it.
+
   - Always verify that a circuit has been secured in a Zero Energy State
     with test equipment after \"locking it out.\" Be sure to test your
     meter before and after checking the circuit to verify that it is
     working properly.
+
   - When the time comes to actually make contact with the conductor(s) of
     a supposedly dead power system, do so first with the back of one hand,
     so that if a shock should occur, the muscle reaction will pull the

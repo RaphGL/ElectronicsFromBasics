@@ -110,10 +110,12 @@ legs.
 #core.review[
   - Wet conditions increase risk of electric shock by lowering skin
     resistance.
+
   - Immediately replace worn or damaged extension cords and power tools.
     You can prevent innocent use of a bad cord or tool by cutting the male
     plug off the cord (while its unplugged from the receptacle, of
     course).
+
   - Power lines are very dangerous and should be avoided at all costs. If
     you see a line about to hit the ground, stand on one foot or run (only
     one foot contacting the ground) to prevent shock from voltage dropped
