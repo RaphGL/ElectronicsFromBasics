@@ -9,11 +9,15 @@
 #set par(justify: true)
 
 #set text(
-  font: "Barlow",
+  font: "Noto Sans",
+  size: 10pt,
   kerning: true, 
   lang: "en",
   ligatures: true,
 )
+
+#show math.equation: set text(font: "Noto Sans Math")
+#show raw: set text(font: "JetBrains Mono", size: 10pt)
 
 #set heading(
  numbering: "1.1" 
@@ -44,8 +48,6 @@
     #tbl
   ]
 ]
-
-#show raw: set text(font: "JetBrains Mono")
 
 #show raw.where(block: true): code => [
   #pad(x: 2em, 1em)[
