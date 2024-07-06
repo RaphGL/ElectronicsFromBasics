@@ -1,3 +1,5 @@
+#let radius_size = 1em
+
 #let volume_title(title: "", description: "") = [
   #layout(size => [
     #block(width: size.width, height: size.height)[
@@ -29,13 +31,21 @@
   #pad(rest: 2em)[
     #set align(center)
 
-    #rect(radius: 1em, stroke: 1.2pt)[
+    #rect(radius: radius_size, stroke: 1.2pt)[
       #pad(rest: 1em)[
         #text(size: 1.2em)[*Review*]
 
         #set list(marker: [--])
         #align(left)[#body]
       ]
+    ]
+  ]
+]
+
+#let boxed_text(body) = [
+  #align(center)[
+    #rect(inset: 10pt, radius: radius_size)[    
+      #body
     ]
   ]
 ]

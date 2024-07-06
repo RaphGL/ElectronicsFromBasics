@@ -10,3 +10,4 @@
 #include "chap3/chap3.typ"
 #include "chap4/chap4.typ"
 #include "chap5/chap5.typ"
+#include "chap6/chap6.typ"

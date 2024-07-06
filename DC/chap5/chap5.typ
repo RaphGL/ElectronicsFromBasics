@@ -6,3 +6,5 @@
 #include "4_conductance.typ"
 #include "5_power_calculations.typ"
 #include "6_correct_ohms_law_use.typ"
+#include "7_component_failure_analysis.typ"
+#include "8_simple_resistor_circuits.typ"
