@@ -12,3 +12,4 @@
 #include "chap5/chap5.typ"
 #include "chap6/chap6.typ"
 #include "chap7/chap7.typ"
+#include "chap8/chap8.typ"
