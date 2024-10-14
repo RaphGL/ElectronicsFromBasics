@@ -13,7 +13,7 @@ dropped as possible while conducting current.
 
 Here is an extreme example of an ammeter's effect upon a circuit:
 
-#image("00169.png")
+#image("static/00169.png")
 
 With the ammeter disconnected from this circuit, the current through the
 3 Ω resistor would be 666.7 mA, and the current through the 1.5 Ω
@@ -22,14 +22,14 @@ of 1/2 Ω, and it were inserted into one of the branches of this circuit,
 though, its resistance would seriously affect the measured branch
 current:
 
-#image("00170.png")
+#image("static/00170.png")
 
 Having effectively increased the left branch resistance from 3 Ω to 3.5
 Ω, the ammeter will read 571.43 mA instead of 666.7 mA. Placing the same
 ammeter in the right branch would affect the current to an even greater
 extent:
 
-#image("00171.png")
+#image("static/00171.png")
 
 Now the right branch current is 1 amp instead of 1.333 amps, due to the
 increase in resistance created by the addition of the ammeter into the
@@ -55,7 +55,7 @@ able to measure the current through a conductor without even having to
 make physical contact with the circuit, much less break continuity or
 insert additional resistance.
 
-#image("00172.png")
+#image("static/00172.png")
 
 Ammeters of this design are made, and are called "_clamp-on_"
 meters because they have "jaws" which can be opened and then secured
@@ -65,7 +65,7 @@ circuit under test has had no additional resistance inserted into it by
 a clamp-on meter, there is no error induced in taking a current
 measurement.
 
-#image("00173.png")
+#image("static/00173.png")
 
 The actual movement mechanism of a clamp-on ammeter is much the same as
 for an iron-vane instrument, except that there is no internal wire coil
@@ -81,7 +81,7 @@ voltmeter, for current measurement.
 A less accurate type of magnetic-field-sensing ammeter than the clamp-on
 style is shown in the following photograph:
 
-#image("50024.jpg")
+#image("static/50024.jpg")
 
 The operating principle for this ammeter is identical to the clamp-on
 style of meter: the circular magnetic field surrounding a

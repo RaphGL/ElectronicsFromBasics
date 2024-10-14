@@ -16,7 +16,7 @@ voltmeters only exist in the pages of textbooks, not in real life! Take
 the following voltage divider circuit as an extreme example of how a
 realistic voltmeter might impact the circuit its measuring:
 
-#image("00156.png")
+#image("static/00156.png")
 
 With no voltmeter connected to the circuit, there should be exactly 12
 volts across each 250 $M Omega$ resistor in the series circuit, the two
@@ -26,14 +26,14 @@ resistance of 10 $M Omega$ (a common amount for a modern digital voltmeter),
 its resistance will create a parallel subcircuit with the lower resistor
 of the divider when connected:
 
-#image("00157.png")
+#image("static/00157.png")
 
 This effectively reduces the lower resistance from $250 M Omega$ to $9.615 M Omega$
 ($250 M Omega$ and $10 M Omega$ in parallel), drastically altering voltage drops in
 the circuit. The lower resistor will now have far less voltage across it
 than before, and the upper resistor far more.
 
-#image("00158.png")
+#image("static/00158.png")
 
 A voltage divider with resistance values of $250 M Omega$ and $9.615 M Omega$ will
 divide 24 volts into portions of 23.1111 volts and 0.8889 volts,
@@ -79,7 +79,7 @@ What "ohms per volt" means is how many ohms of lead-to-lead resistance
 for every volt of _range setting_ on the selector switch. Let's
 take our example voltmeter from the last section as an example:
 
-#image("00154.png")
+#image("static/00154.png")
 
 On the 1000 volt scale, the total resistance is $1 M Omega (999.5 k Omega + 500 Omega)$,
 giving 1,000,000 $Omega$ per 1000 volts of range, or 1000 ohms per volt (1
@@ -116,7 +116,7 @@ under test. This special electronic circuit is known as an
 _amplifier_, and the voltmeter thus constructed is an
 _amplified voltmeter_.
 
-#image("00370.png")
+#image("static/00370.png")
 
 The internal workings of an amplifier are too complex to be discussed at
 this point, but suffice it to say that the circuit allows the measured
@@ -133,7 +133,7 @@ this boosting. Such _vacuum-tube voltmeters_, or _(VTVM's)_
 were once very popular instruments for electronic test and measurement.
 Here is a photograph of a very old VTVM, with the vacuum tube exposed!
 
-#image("50012.jpg")
+#image("static/50012.jpg")
 
 Now, solid-state transistor amplifier circuits accomplish the same task
 in digital meter designs. While this approach (of using an amplifier to
@@ -155,7 +155,7 @@ be zero current drawn from the circuit under test, and thus the measured
 voltage should be unaffected. It is easy to show how this works with our
 last example, the high-resistance voltage divider circuit:
 
-#image("00159.png")
+#image("static/00159.png")
 
 The "null detector" is a sensitive device capable of indicating the
 presence of very small voltages. If an electromechanical meter movement
@@ -176,7 +176,7 @@ it will move the speaker cone and produce an audible "click." Another
 Building on this principle, a sensitive null detector may be made from
 nothing more than headphones and a momentary contact switch:
 
-#image("00425.png")
+#image("static/00425.png")
 
 If a set of "8 ohm" headphones are used for this purpose, its
 sensitivity may be greatly increased by connecting it to a device called
@@ -193,12 +193,12 @@ accumulating the energy of a low-current signal in a magnetic field for
 sudden release into the headphone speakers when the switch is opened.
 Thus, it will produce louder "clicks" for detecting smaller signals:
 
-#image("00426.png")
+#image("static/00426.png")
 
 Connected to the potentiometric circuit as a null detector, the
 switch/transformer/headphone arrangement is used as such:
 
-#image("00424.png")
+#image("static/00424.png")
 
 The purpose of any null detector is to act like a laboratory balance
 scale, indicating when the two voltages are equal (absence of voltage
@@ -207,7 +207,7 @@ beam doesn't actually weigh anything; rather, it simply indicates
 _equality_ between the unknown mass and the pile of standard
 (calibrated) masses.
 
-#image("00160.png")
+#image("static/00160.png")
 
 Likewise, the null detector simply indicates when the voltage between
 points 1 and 2 are equal, which (according to Kirchhoff's Voltage Law)
@@ -224,7 +224,7 @@ and then note the source voltage as indicated by a voltmeter connected
 across the precision voltage source, that indication being
 representative of the voltage across the lower $250 M Omega$ resistor:
 
-#image("00161.png")
+#image("static/00161.png")
 
 The voltmeter used to directly measure the precision source need not
 have an extremely high $Omega\/V$ sensitivity, because the source will supply

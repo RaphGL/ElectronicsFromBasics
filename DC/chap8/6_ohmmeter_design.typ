@@ -17,7 +17,7 @@ movement at any given resistance.
 Starting with a simple movement and battery circuit, let's see how it
 would function as an ohmmeter:
 
-#image("00174.png")
+#image("static/00174.png")
 
 When there is infinite resistance (no continuity between test leads),
 there is zero current through the meter movement, and the needle points
@@ -31,7 +31,7 @@ If the test leads of this ohmmeter are directly shorted together
 current through it, limited only by the battery voltage and the
 movement's internal resistance:
 
-#image("00175.png")
+#image("static/00175.png")
 
 With 9 volts of battery potential and only 500 $Omega$ of movement resistance,
 our circuit current will be 18 mA, which is far beyond the full-scale
@@ -47,7 +47,7 @@ so that the movement just registers full-scale when the test leads are
 shorted together. This is accomplished by adding a series resistance to
 the meter's circuit:
 
-#image("00176.png")
+#image("static/00176.png")
 
 To determine the proper value for R, we calculate the total circuit
 resistance needed to limit current to 1 mA (full-scale deflection on
@@ -80,7 +80,7 @@ starts out "expanded" at the right-hand side, with the successive
 resistance values growing closer and closer to each other toward the
 left side of the scale:
 
-#image("00177.png")
+#image("static/00177.png")
 
 Infinity cannot be approached in a linear (even) fashion, because the
 scale would _never_ get there! With a logarithmic scale, the amount
@@ -140,7 +140,7 @@ $
 
 So, the scale for this ohmmeter looks something like this:
 
-#image("00178.png")
+#image("static/00178.png")
 
 
 One major problem with this design is its reliance upon a stable battery

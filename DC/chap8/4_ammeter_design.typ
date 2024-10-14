@@ -26,39 +26,39 @@ mA as before. Whatever extended range provided by the parallel-connected
 resistors, we would have to represent graphically on the meter movement
 face.
 
-#image("00150.png")
+#image("static/00150.png")
 
 Using 5 amps as an extended range for our sample movement, let's
 determine the amount of parallel resistance necessary to "shunt," or
 bypass, the majority of current so that only 1 mA will go through the
 movement with a total current of 5 A:
 
-#image("00162.png")
+#image("static/00162.png")
 
-#image("10157.png")
+#image("static/10157.png")
 
 From our given values of movement current, movement resistance, and
 total circuit (measured) current, we can determine the voltage across
 the meter movement (Ohm's Law applied to the center column, $E = I R$):
 
-#image("10158.png")
+#image("static/10158.png")
 
 Knowing that the circuit formed by the movement and the shunt is of a
 parallel configuration, we know that the voltage across the movement,
 shunt, and test leads (total) must be the same:
 
-#image("10159.png")
+#image("static/10159.png")
 
 We also know that the current through the shunt must be the difference
 between the total current (5 amps) and the current through the movement
 (1 mA), because branch currents add in a parallel configuration:
 
-#image("10160.png")
+#image("static/10160.png")
 
 Then, using Ohm's Law ($R=E/I$) in the right column, we can determine
 the necessary shunt resistance:
 
-#image("10161.png")
+#image("static/10161.png")
 
 Of course, we could have calculated the same value of just over 100
 milli-ohms ($100 m Omega$) for the shunt by calculating total resistance
@@ -75,7 +75,7 @@ In real life, the shunt resistor of an ammeter will usually be encased
 within the protective metal housing of the meter unit, hidden from
 sight. Note the construction of the ammeter in the following photograph:
 
-#image("50025.jpg")
+#image("static/50025.jpg")
 
 This particular ammeter is an automotive unit manufactured by
 Stewart-Warner. Although the D'Arsonval meter movement itself probably
@@ -93,7 +93,7 @@ As is the case with multiple-range voltmeters, ammeters can be given
 more than one usable range by incorporating several shunt resistors
 switched with a multi-pole switch:
 
-#image("00163.png")
+#image("static/00163.png")
 
 Notice that the range resistors are connected through the switch so as
 to be in parallel with the meter movement, rather than in series as it
@@ -107,7 +107,7 @@ technique, using a known total current, movement full-scale deflection
 rating, and movement resistance. For an ammeter with ranges of 100 mA, 1
 A, 10 A, and 100 A, the shunt resistances would be as such:
 
-#image("00164.png")
+#image("static/00164.png")
 
 Notice that these shunt resistor values are very low! 5.00005 mΩ is
 5.00005 milli-ohms, or 0.00500005 ohms! To achieve these low
@@ -123,7 +123,7 @@ example meter above, the power dissipations at full-scale indication are
 (the double-squiggly lines represent "approximately equal to" in
 mathematics):
 
-#image("10163.png")
+#image("static/10163.png")
 
 $
   P_(R 1) &= E^2 / R_1 = (0.5 V)^2 / (5.00005 m Omega) approx 50 W \
@@ -148,7 +148,7 @@ through the voltmeter movement is small enough to be considered
 negligible, and the shunt resistance can be sized according to how many
 volts or millivolts of drop will be produced per amp of current:
 
-#image("00165.png")
+#image("static/00165.png")
 
 If, for example, the shunt resistor in the above circuit were sized at
 precisely 1 Ω, there would be 1 volt dropped across it for every amp of
@@ -168,7 +168,7 @@ circuit with an ammeter, the circuit would have to be broken
 (interrupted) and the ammeter inserted between the separated wire ends,
 like this:
 
-#image("00166.png")
+#image("static/00166.png")
 
 If we have a circuit where current needs to be measured often, or we
 would just like to make the process of current measurement more
@@ -176,7 +176,7 @@ convenient, a shunt resistor could be placed between those points and
 left there permanently, current readings taken with a voltmeter as
 needed without interrupting continuity in the circuit:
 
-#image("00167.png")
+#image("static/00167.png")
 
 Of course, care must be taken in sizing the shunt resistor low enough so
 that it doesn't adversely affect the circuit's normal operation, but
@@ -186,7 +186,7 @@ computer display current through a circuit in terms of a voltage (with
 SPICE, this would allow us to avoid the idiosyncrasy of reading negative
 current values):
 
-#image("00168.png")
+#image("static/00168.png")
 
 
 ```
